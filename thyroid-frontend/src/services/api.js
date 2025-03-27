@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:5000/predict';  // Ensure this matches your Flask backend URL
+const API_URL = 'https://major-project-2-kx92.onrender.com';  // Ensure this matches your Flask backend URL
 
 export const predictThyroid = async (formData) => {
     try {
